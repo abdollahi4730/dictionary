@@ -1,0 +1,141 @@
+:root {
+    --color-main: #5e26cb8c;
+}
+
+body {
+    background-color: var(--color-main);
+}
+
+#main {
+    height: fit-content;
+    width: 600px;
+    margin: auto;
+    margin: 35px auto;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#main-section {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+    padding: 75px 50px 75px 50px;
+}
+
+#input-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid var(--color-main);
+    padding: 10px 10px 10px 0px;
+    margin: 5px 15px 5px 0px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+button {
+    background-color: var(--color-main);
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clickBtn {
+    background-color: white;
+    color: var(--color-main);
+}
+
+/* --------- result-sec ---------- */
+
+#result-sec {
+    margin: 50px 0 0 0;
+}
+
+#title-word {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-family: cursive, auto;
+}
+
+#title-word img {
+    width: 35px;
+    cursor: pointer;
+}
+
+#result-sec .welcome span {
+    color: var(--color-main);
+}
+
+#result-sec #description {
+    line-height: 30px;
+    font-size: 1.5rem;
+    white-space: pre-line;
+}
+
+#result-sec #adj-pronun {
+    font-size: 1rem;
+}
+
+.font-mono {
+    font-weight: lighter;
+    font-family: Calibri, sans-serif;
+    margin: 15px 0 20px 0;
+
+}
+
+.err {
+    font-weight: bold;
+    border-bottom: 1px solid red;
+
+}
+
+#tel-icon {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+#tel-icon:hover {
+
+    animation: rotate-anim 0.5s;
+
+
+}
+
+@keyframes rotate-anim {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width : 320) {
+    #main {
+        scale: 0.3;
+    }
+}
+
+@media screen and (min-width :476) {
+    #main {
+        scale: 1;
+    }
+    
+}
