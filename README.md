@@ -16,7 +16,7 @@ then, open the **index.html**.
 
 + This dictionary is made only for English language.
 
-### Option 
+### Options
  * How to pronounce the word
 
  * Pronunciation of the word :loud_sound:,
