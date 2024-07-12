@@ -2,7 +2,13 @@
 This is a online dictionary.
 you can see this repo in **[this link](https://abdollahi4730.github.io/dictionary/)** as **online**.
 # how to use
-If you can download this repo for using this dictionary, just open the **index.html** and start.
+
+first of all, `clone the repository`. 
+```
+git clone https://github.com/abdollahi4730/dictionary.git
+```
+then, open the **index.html**.
+
 # notes
 - You must have access to the ***Internet***.
 
@@ -10,9 +16,11 @@ If you can download this repo for using this dictionary, just open the **index.h
 
 + This dictionary is made only for English language.
 
-- You enter a word and then you get
+### Option 
+ * How to pronounce the word
 
-  *  How to pronounce the word,
-  *  Pronunciation of the word :loud_sound:,
-  *  Grammatical role of the word,
-  *  Description of the word 
+ * Pronunciation of the word :loud_sound:,
+
+ * Grammatical role of the word,
+
+ * Description of the word 
